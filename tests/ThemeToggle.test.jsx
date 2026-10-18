@@ -59,3 +59,4 @@ describe('Theme Toggle & Persistence', () => {
     expect(screen.getByTestId('sun-icon')).toBeInTheDocument();
   });
 });
+

@@ -10,3 +10,4 @@
 - Run lint, tests and build before finishing. Report errors honestly, never hide them.
 - At the end: list files changed, explain what you did in simple words, list what the human must do manually, then STOP.
 - Design: follow src/styles/tokens.css (Ink and Marigold). No generic blue SaaS look.
+

@@ -37,3 +37,4 @@ describe('Button component', () => {
     expect(button).toHaveClass('rounded-[8px]');
   });
 });
+
