@@ -1,0 +1,63 @@
+:root {
+  /* Ink and Marigold Theme - Light Mode */
+  --color-paper: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-ink: #14181F;
+  --color-ink-muted: #575E6C;
+  --color-ink-faint: #8E95A2;
+  --color-accent: #F5A524;
+  --color-accent-hover: #E09418;
+  --color-accent-subtle: #FDF3E3;
+  --color-profit: #1F9D6B;
+  --color-profit-subtle: #EBF8F2;
+  --color-owed: #E5484D;
+  --color-owed-subtle: #FDF0F0;
+  --color-info: #3E63DD;
+  --color-info-subtle: #EFF3FD;
+  --color-line: #E7E1D6;
+  --color-line-subtle: #F0EBE2;
+}
+
+.dark {
+  /* Ink and Marigold Theme - Dark Mode */
+  --color-paper: #12151B;
+  --color-surface: #1A1E26;
+  --color-ink: #F2EFE8;
+  --color-ink-muted: #A3AAB8;
+  --color-ink-faint: #6A7282;
+  --color-accent: #FFB93B;
+  --color-accent-hover: #FFA91A;
+  --color-accent-subtle: #2C2417;
+  --color-profit: #34C58B;
+  --color-profit-subtle: #122B21;
+  --color-owed: #FF6B6F;
+  --color-owed-subtle: #2E191B;
+  --color-info: #7C9BFF;
+  --color-info-subtle: #19223D;
+  --color-line: #2A2F3A;
+  --color-line-subtle: #1E232B;
+}
+
+/* Tabular numbers utility for financial data */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+}
+
+/* Subtle ruled-paper background pattern for future dashboard */
+.bg-ruled-paper {
+  background-color: var(--color-paper);
+  background-image: linear-gradient(
+    var(--color-line-subtle) 1px,
+    transparent 1px
+  );
+  background-size: 100% 28px;
+  background-attachment: local;
+}
+
+/* Touch target helper */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
